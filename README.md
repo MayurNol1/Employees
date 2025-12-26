@@ -49,20 +49,21 @@ All data is stored in **React state + LocalStorage**, so it remains available ev
 ## 📂 Project Structure
 
 src/
-├── pages/
-│ ├── Home.jsx
-│ ├── CreateEmployee.jsx
-│ ├── ShowEmployee.jsx
-│ ├── EditEmployee.jsx
-│ └── DeleteEmployee.jsx
-├── components/
-│ ├── BackButton.jsx
-│ └── home/
-│ └── EmployeeTable.jsx
-├── context/
-│ └── EmployeeContext.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
+ ├─ pages/
+ │   ├─ Home.jsx
+ │   ├─ CreateEmployee.jsx
+ │   ├─ ShowEmployee.jsx
+ │   ├─ EditEmployee.jsx
+ │   └─ DeleteEmployee.jsx
+ ├─ components/
+ │   ├─ BackButton.jsx
+ │   └─ home/
+ │       └─ EmployeeTable.jsx
+ ├─ context/
+ │   └─ EmployeeContext.jsx
+ ├─ App.jsx
+ ├─ main.jsx
+ └─ index.css
+
 
  ___
