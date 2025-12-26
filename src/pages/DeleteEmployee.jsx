@@ -28,7 +28,6 @@ export default function DeleteEmployee() {
         className="bg-red-600 text-white px-6 py-2 rounded"
         onClick={() => {
           deleteEmployee(id);
-          deleteEmployee(id);
           enqueueSnackbar("Employee deleted", { variant: "error" });
           navigate("/");
         }}

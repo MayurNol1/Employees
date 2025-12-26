@@ -7,6 +7,8 @@ import DeleteEmployee from "./pages/DeleteEmployee";
 import { EmployeeProvider } from "./context/EmployeeContext";
 
 export default function App() {
+
+  // Rotes for Different Path
   return (
     <EmployeeProvider>
       <Routes>
